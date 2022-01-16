@@ -37,7 +37,7 @@ Based on the Imbalanced Classification Reports of each model, it appears that ev
 
 With that in mind, our focus will switch to the high risk category. 
 ### Precision Scores:
-All models have less than 10% Precision scores which means that there are lots of false positives i.e. loans that are not high risk but identified as high risk. That is bad for business as that would result in many unnecessary rejections.
+All models have less than 10% Precision scores which means that there are lots of false positives i.e. applications that are not high risk but identified as high risk. That is bad for business as that would result in many unnecessary rejections.
 
 ### Recall Scores:
 The EasyEnsembleClassifier has the highest Recall score for the high risk category of 92%. All other models have scores of around 70%. This means that the EasyEnsembleClassifier model does not produce as many false negative results for high risk applications as the other models. 
